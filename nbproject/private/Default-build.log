@@ -1,0 +1,1 @@
+g++ -std=c++14 -g -o loveTest windowTesting.cpp Window.cpp -D_REENTRANT -I/usr/include/SDL2 -lSDL2 
