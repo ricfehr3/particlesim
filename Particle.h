@@ -23,6 +23,7 @@ class Particle : public Pixel
 {
 friend class tmpPixel;
 public:
+    Particle(float posX, float posY, float velX, float velY, float mass, SDLWindow* window, int r, int g, int b);
     Particle(float posX, float posY, float velX, float velY, float mass, SDLWindow* window);
     Particle(float mass, SDLWindow* window);
     Particle(SDLWindow* window);

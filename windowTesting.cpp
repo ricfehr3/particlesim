@@ -17,10 +17,13 @@ int main(int argc, char** argv)
         particleList.push_back(new Particle(
             (float)MathHelper::getRando(0, 630), 
             (float)MathHelper::getRando(0, 470), 
-            (float)MathHelper::getRando(-3, 3), 
-            (float)MathHelper::getRando(-3, 3), 
-            1.0f,
-            test));
+            ((float)MathHelper::getRando(0, 1000)*0.01f)-5.0f, 
+            ((float)MathHelper::getRando(0, 1000)*0.01f)-5.0f, 
+            (float)MathHelper::getRando(0, 1000)*0.02f,
+            test,
+            255,
+            255,
+            255));
     }
     
 

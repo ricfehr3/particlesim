@@ -2,10 +2,15 @@
 <configurationDescriptor version="100">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
+      <in>GravityType.cpp</in>
+      <in>GravityType.h</in>
       <in>MathHelper.cpp</in>
       <in>MathHelper.h</in>
       <in>Particle.cpp</in>
       <in>Pixel.cpp</in>
+      <in>PointObject.h</in>
+      <in>PointsGrid.cpp</in>
+      <in>PointsGrid.h</in>
       <in>SDLWindow.cpp</in>
       <in>windowTesting.cpp</in>
     </df>
@@ -46,6 +51,10 @@
           <preBuildCommand></preBuildCommand>
         </preBuild>
       </makefileType>
+      <item path="GravityType.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GravityType.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="MathHelper.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="MathHelper.h" ex="false" tool="3" flavor2="0">
@@ -57,6 +66,12 @@
       <item path="Pixel.cpp" ex="false" tool="1" flavor2="11">
         <ccTool flags="0">
         </ccTool>
+      </item>
+      <item path="PointObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PointsGrid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PointsGrid.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="SDLWindow.cpp" ex="false" tool="1" flavor2="11">
         <ccTool flags="0">

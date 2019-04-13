@@ -14,7 +14,9 @@
 #ifndef PIXEL_H
 #define PIXEL_H
 
-class Pixel
+#include "PointObject.h"
+
+class Pixel : public PointObject
 {
 public:
     Pixel(float posX, float posY, int r, int g, int b);
